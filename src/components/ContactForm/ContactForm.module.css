@@ -1,0 +1,27 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.formItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.input {
+  width: 280px;
+  height: 30px;
+  border-radius: 4px;
+}
+.error {
+  font-size: 14px;
+  position: absolute;
+  top: 67%;
+  color: red;
+}
