@@ -2,6 +2,7 @@ import css from './Contact.module.css'
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 export default function Contact({ contacts: { name, id, number }, deleteContact }) {
+
     return (
     <>
         <div>
